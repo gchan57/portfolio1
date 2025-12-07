@@ -68,7 +68,7 @@ export const Footer = () => {
           </div>
 
           <p className="flex items-center gap-1">
-            Built with  using React & Tailwind
+            Built with React & Tailwind
           </p>
         </motion.div>
       </div>
