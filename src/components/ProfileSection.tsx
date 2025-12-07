@@ -6,13 +6,13 @@ const profiles = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/yourprofile",
+    url: "https://www.linkedin.com/in/guna-chandru-160501233",
     color: "hover:text-[#0077B5]",
   },
   {
     name: "LeetCode",
     icon: Code2,
-    url: "https://leetcode.com/yourprofile",
+    url: "https://leetcode.com/tgunachandru",
     color: "hover:text-[#FFA116]",
   },
   {
