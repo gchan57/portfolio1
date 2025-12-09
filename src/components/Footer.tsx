@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, Instagram, Github } from "lucide-react";
+import { Heart, Instagram, Github ,Mail} from "lucide-react";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 const socialLinks = [
@@ -30,6 +30,11 @@ const socialLinks = [
     name: "GitHub",
     url: "https://github.com/gchan57",
     icon: <Github className="w-5 h-5" />,
+  },
+  {
+    name: "Mail",
+    url: "mailto: tgunachandru@gmail.com",
+    icon: <Mail className="w-5 h-5" />,
   },
 ];
 
