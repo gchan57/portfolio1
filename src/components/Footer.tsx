@@ -36,6 +36,18 @@ const socialLinks = [
     url: "mailto: tgunachandru@gmail.com",
     icon: <Mail className="w-5 h-5" />,
   },
+  {
+  name: "Duolingo",
+  url: "https://www.duolingo.com/profile/Gchan57",
+  icon: (
+    <img
+      src="/icon.svg"
+      alt="Duolingo"
+      className="w-5 h-5 opacity-80 hover:opacity-100 transition-opacity"
+    />
+  ),
+},
+
 ];
 
 export const Footer = () => {
@@ -71,10 +83,6 @@ export const Footer = () => {
               </Tooltip>
             ))}
           </div>
-
-          <p className="flex items-center gap-1">
-            Built with React & Tailwind
-          </p>
         </motion.div>
       </div>
     </footer>
