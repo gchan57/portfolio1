@@ -3,6 +3,7 @@ import { Cpu, Code, Zap, BookOpen } from "lucide-react";
 
 const skills = [
   { name: "C", category: "Languages" },
+  { name: "Java", category: "Languages" },
   { name: "Python", category: "Languages" },
   { name: "JavaScript", category: "Languages" },
   { name: "STM32", category: "Embedded" },
