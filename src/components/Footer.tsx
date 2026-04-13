@@ -4,6 +4,44 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 const socialLinks = [
   {
+    name: "GitHub",
+    url: "https://github.com/gchan57",
+    icon: <Github className="w-5 h-5" />,
+  },
+    {
+    name: "freeCodeCamp",
+    url: "https://www.freecodecamp.org/gunachandru",
+    icon: (
+      <img
+        src="https://cdn.simpleicons.org/freecodecamp/white"
+        alt="freeCodeCamp"
+        className="w-5 h-5 opacity-70 hover:opacity-100 transition-opacity invert dark:invert-0"
+      />
+    ),
+  },
+  {
+    name: "Duolingo",
+    url: "https://www.duolingo.com/profile/Gchan57",
+    icon: (
+      <img
+        src="/icon.svg"
+        alt="Duolingo"
+        className="w-5 h-5 opacity-80 hover:opacity-100 transition-opacity"
+      />
+    ),
+  },
+  {
+  name: "Chess.com",
+  url: "https://www.chess.com/member/gunachandru",
+  icon: (
+    <img
+      src="https://cdn.simpleicons.org/chessdotcom"
+      alt="Chess.com"
+      className="w-5 h-5 opacity-80 hover:opacity-100 transition-opacity invert dark:invert-0"
+    />
+  ),
+},
+  {
     name: "Reddit",
     url: "https://reddit.com/user/gchan57",
     icon: (
@@ -25,33 +63,6 @@ const socialLinks = [
     name: "Instagram",
     url: "https://instagram.com/_gchan57",
     icon: <Instagram className="w-5 h-5" />,
-  },
-  {
-    name: "GitHub",
-    url: "https://github.com/gchan57",
-    icon: <Github className="w-5 h-5" />,
-  },
-  {
-    name: "freeCodeCamp",
-    url: "https://www.freecodecamp.org/gunachandru",
-    icon: (
-      <img
-        src="https://cdn.simpleicons.org/freecodecamp/white"
-        alt="freeCodeCamp"
-        className="w-5 h-5 opacity-70 hover:opacity-100 transition-opacity invert dark:invert-0"
-      />
-    ),
-  },
-  {
-    name: "Duolingo",
-    url: "https://www.duolingo.com/profile/Gchan57",
-    icon: (
-      <img
-        src="/icon.svg"
-        alt="Duolingo"
-        className="w-5 h-5 opacity-80 hover:opacity-100 transition-opacity"
-      />
-    ),
   },
   {
     name: "Mail",
