@@ -16,9 +16,9 @@ const profiles = [
     color: "hover:text-[#FFA116]",
   },
   {
-    name: "AtCoder",
+    name: "GeekForGeeks",
     icon: Trophy,
-    url: "https://atcoder.jp/users/Guncahandru",
+    url: "https://www.geeksforgeeks.org/profile/tgunachkx47?tab=activity",
     color: "hover:text-[#222222] dark:hover:text-[#00BFFF]",
   },
   {
